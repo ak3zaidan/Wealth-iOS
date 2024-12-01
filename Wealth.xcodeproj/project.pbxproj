@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71E17EA2D18F01A00E1562D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A71E17E92D18F01A00E1562D /* Alamofire */; };
+		A72296EA2D43187200ADE386 /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A72296E92D43187200ADE386 /* OAuthSwift */; };
+		A781F14D2CFCF4C10008360C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A781F14C2CFCF4C10008360C /* FirebaseAuth */; };
+		A781F14F2CFCF4C10008360C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A781F14E2CFCF4C10008360C /* FirebaseCore */; };
+		A781F1512CFCF4C10008360C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1502CFCF4C10008360C /* FirebaseDatabase */; };
+		A781F1532CFCF4C10008360C /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1522CFCF4C10008360C /* FirebaseDynamicLinks */; };
+		A781F1552CFCF4C10008360C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1542CFCF4C10008360C /* FirebaseFirestore */; };
+		A781F1572CFCF4C10008360C /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1562CFCF4C10008360C /* FirebaseFirestoreCombine-Community */; };
+		A781F1592CFCF4C10008360C /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1582CFCF4C10008360C /* FirebaseFunctions */; };
+		A781F15B2CFCF4C10008360C /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A781F15A2CFCF4C10008360C /* FirebaseFunctionsCombine-Community */; };
+		A781F15D2CFCF4C10008360C /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A781F15C2CFCF4C10008360C /* FirebaseInAppMessaging-Beta */; };
+		A781F15F2CFCF4C10008360C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A781F15E2CFCF4C10008360C /* FirebaseMessaging */; };
+		A781F1612CFCF4C10008360C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1602CFCF4C10008360C /* FirebaseStorage */; };
+		A781F1712CFD06E60008360C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A781F1702CFD06E60008360C /* StoreKit.framework */; };
+		A781F1BC2CFD2BC30008360C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1BB2CFD2BC30008360C /* Lottie */; };
+		A781F1BF2CFD2BDB0008360C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A781F1BE2CFD2BDB0008360C /* Kingfisher */; };
+		A791F6ED2DE6C07100B1AA38 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A791F6EC2DE6C07100B1AA38 /* FirebaseCrashlytics */; };
+		A7925E732D0036C800BD7A22 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A7925E722D0036C800BD7A22 /* GoogleSignIn */; };
+		A7925E752D0036C800BD7A22 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A7925E742D0036C800BD7A22 /* GoogleSignInSwift */; };
+		A79FB6612D1D0CDE00BCA889 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = A79FB6602D1D0CDE00BCA889 /* Stripe */; };
+		A79FB6632D1D0CDE00BCA889 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = A79FB6622D1D0CDE00BCA889 /* StripeApplePay */; };
+		A7C255752D18E961008F2821 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = A7C255742D18E961008F2821 /* Markdown */; };
+		A7C255782D18E9A1008F2821 /* Highlighter in Frameworks */ = {isa = PBXBuildFile; productRef = A7C255772D18E9A1008F2821 /* Highlighter */; };
+		A7DC9A2E2D94CD6F00E838B8 /* swift-tls-client in Frameworks */ = {isa = PBXBuildFile; productRef = A7DC9A2D2D94CD6F00E838B8 /* swift-tls-client */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A781F0A42CFCE9B80008360C /* Wealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A781F1702CFD06E60008360C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A71E17F32D18F40600E1562D /* Exceptions for "Wealth" folder in "Wealth" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				info.plist,
+			);
+			target = A781F0A32CFCE9B80008360C /* Wealth */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A781F0A62CFCE9B80008360C /* Wealth */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A71E17F32D18F40600E1562D /* Exceptions for "Wealth" folder in "Wealth" target */,
+			);
+			path = Wealth;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A781F0A12CFCE9B80008360C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A781F1BC2CFD2BC30008360C /* Lottie in Frameworks */,
+				A79FB6632D1D0CDE00BCA889 /* StripeApplePay in Frameworks */,
+				A781F1512CFCF4C10008360C /* FirebaseDatabase in Frameworks */,
+				A781F1BF2CFD2BDB0008360C /* Kingfisher in Frameworks */,
+				A7DC9A2E2D94CD6F00E838B8 /* swift-tls-client in Frameworks */,
+				A7C255752D18E961008F2821 /* Markdown in Frameworks */,
+				A7925E752D0036C800BD7A22 /* GoogleSignInSwift in Frameworks */,
+				A71E17EA2D18F01A00E1562D /* Alamofire in Frameworks */,
+				A781F1592CFCF4C10008360C /* FirebaseFunctions in Frameworks */,
+				A72296EA2D43187200ADE386 /* OAuthSwift in Frameworks */,
+				A781F15F2CFCF4C10008360C /* FirebaseMessaging in Frameworks */,
+				A7925E732D0036C800BD7A22 /* GoogleSignIn in Frameworks */,
+				A781F1712CFD06E60008360C /* StoreKit.framework in Frameworks */,
+				A781F15D2CFCF4C10008360C /* FirebaseInAppMessaging-Beta in Frameworks */,
+				A781F14F2CFCF4C10008360C /* FirebaseCore in Frameworks */,
+				A781F14D2CFCF4C10008360C /* FirebaseAuth in Frameworks */,
+				A79FB6612D1D0CDE00BCA889 /* Stripe in Frameworks */,
+				A781F1572CFCF4C10008360C /* FirebaseFirestoreCombine-Community in Frameworks */,
+				A781F1552CFCF4C10008360C /* FirebaseFirestore in Frameworks */,
+				A781F1612CFCF4C10008360C /* FirebaseStorage in Frameworks */,
+				A781F1532CFCF4C10008360C /* FirebaseDynamicLinks in Frameworks */,
+				A791F6ED2DE6C07100B1AA38 /* FirebaseCrashlytics in Frameworks */,
+				A7C255782D18E9A1008F2821 /* Highlighter in Frameworks */,
+				A781F15B2CFCF4C10008360C /* FirebaseFunctionsCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A781F09B2CFCE9B80008360C = {
+			isa = PBXGroup;
+			children = (
+				A781F0A62CFCE9B80008360C /* Wealth */,
+				A781F1632CFCF7E80008360C /* Frameworks */,
+				A781F0A52CFCE9B80008360C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A781F0A52CFCE9B80008360C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A781F0A42CFCE9B80008360C /* Wealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A781F1632CFCF7E80008360C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A781F1702CFD06E60008360C /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A781F0A32CFCE9B80008360C /* Wealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A781F0C82CFCE9BB0008360C /* Build configuration list for PBXNativeTarget "Wealth" */;
+			buildPhases = (
+				A781F0A02CFCE9B80008360C /* Sources */,
+				A781F0A12CFCE9B80008360C /* Frameworks */,
+				A781F0A22CFCE9B80008360C /* Resources */,
+				A791F6EE2DE6C23200B1AA38 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A781F0A62CFCE9B80008360C /* Wealth */,
+			);
+			name = Wealth;
+			packageProductDependencies = (
+				A781F14C2CFCF4C10008360C /* FirebaseAuth */,
+				A781F14E2CFCF4C10008360C /* FirebaseCore */,
+				A781F1502CFCF4C10008360C /* FirebaseDatabase */,
+				A781F1522CFCF4C10008360C /* FirebaseDynamicLinks */,
+				A781F1542CFCF4C10008360C /* FirebaseFirestore */,
+				A781F1562CFCF4C10008360C /* FirebaseFirestoreCombine-Community */,
+				A781F1582CFCF4C10008360C /* FirebaseFunctions */,
+				A781F15A2CFCF4C10008360C /* FirebaseFunctionsCombine-Community */,
+				A781F15C2CFCF4C10008360C /* FirebaseInAppMessaging-Beta */,
+				A781F15E2CFCF4C10008360C /* FirebaseMessaging */,
+				A781F1602CFCF4C10008360C /* FirebaseStorage */,
+				A781F1BB2CFD2BC30008360C /* Lottie */,
+				A781F1BE2CFD2BDB0008360C /* Kingfisher */,
+				A7925E722D0036C800BD7A22 /* GoogleSignIn */,
+				A7925E742D0036C800BD7A22 /* GoogleSignInSwift */,
+				A7C255742D18E961008F2821 /* Markdown */,
+				A7C255772D18E9A1008F2821 /* Highlighter */,
+				A71E17E92D18F01A00E1562D /* Alamofire */,
+				A79FB6602D1D0CDE00BCA889 /* Stripe */,
+				A79FB6622D1D0CDE00BCA889 /* StripeApplePay */,
+				A72296E92D43187200ADE386 /* OAuthSwift */,
+				A7DC9A2D2D94CD6F00E838B8 /* swift-tls-client */,
+				A791F6EC2DE6C07100B1AA38 /* FirebaseCrashlytics */,
+			);
+			productName = Wealth;
+			productReference = A781F0A42CFCE9B80008360C /* Wealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A781F09C2CFCE9B80008360C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A781F0A32CFCE9B80008360C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A781F09F2CFCE9B80008360C /* Build configuration list for PBXProject "Wealth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A781F09B2CFCE9B80008360C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A781F1BA2CFD2BC30008360C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A781F1BD2CFD2BDB0008360C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A7925E712D0036C800BD7A22 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A7C255732D18E961008F2821 /* XCRemoteSwiftPackageReference "swift-markdown" */,
+				A7C255762D18E9A1008F2821 /* XCRemoteSwiftPackageReference "HighlighterSwift" */,
+				A71E17E82D18F01A00E1562D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A79FB65F2D1D0CDE00BCA889 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+				A72296E82D43187200ADE386 /* XCRemoteSwiftPackageReference "OAuthSwift" */,
+				A7DC9A2C2D94CD6F00E838B8 /* XCRemoteSwiftPackageReference "Swift-TLS-Client" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A781F0A52CFCE9B80008360C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A781F0A32CFCE9B80008360C /* Wealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A781F0A22CFCE9B80008360C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A791F6EE2DE6C23200B1AA38 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}.debug.dylib",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A781F0A02CFCE9B80008360C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A781F0C62CFCE9BB0008360C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A781F0C72CFCE9BB0008360C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A781F0C92CFCE9BB0008360C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wealth/Wealth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MB5U72LU6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wealth;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Wealth uses access to your camera to do things like taking images for photo based AI questions.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Wealth uses access to Face ID to securely and efficiently log you in.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This will allow the Wealth app to display your location on the map so you can use our tools with ease.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This will allow the Wealth app to display your location on the map so you can use our tools with ease.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Wealth uses access to your camera roll to do things like personalizing your profile by adding a profile image.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.61;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wealth.Wealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A781F0CA2CFCE9BB0008360C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wealth/Wealth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MB5U72LU6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wealth;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Wealth uses access to your camera to do things like taking images for photo based AI questions.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Wealth uses access to Face ID to securely and efficiently log you in.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This will allow the Wealth app to display your location on the map so you can use our tools with ease.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This will allow the Wealth app to display your location on the map so you can use our tools with ease.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Wealth uses access to your camera roll to do things like personalizing your profile by adding a profile image.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.61;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wealth.Wealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A781F09F2CFCE9B80008360C /* Build configuration list for PBXProject "Wealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A781F0C62CFCE9BB0008360C /* Debug */,
+				A781F0C72CFCE9BB0008360C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A781F0C82CFCE9BB0008360C /* Build configuration list for PBXNativeTarget "Wealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A781F0C92CFCE9BB0008360C /* Debug */,
+				A781F0CA2CFCE9BB0008360C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A71E17E82D18F01A00E1562D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		A72296E82D43187200ADE386 /* XCRemoteSwiftPackageReference "OAuthSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OAuthSwift/OAuthSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		A781F1BA2CFD2BC30008360C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		A781F1BD2CFD2BDB0008360C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.1;
+			};
+		};
+		A7925E712D0036C800BD7A22 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		A79FB65F2D1D0CDE00BCA889 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.2.0;
+			};
+		};
+		A7C255732D18E961008F2821 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-markdown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		A7C255762D18E9A1008F2821 /* XCRemoteSwiftPackageReference "HighlighterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/HighlighterSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A7DC9A2C2D94CD6F00E838B8 /* XCRemoteSwiftPackageReference "Swift-TLS-Client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ak3zaidan/Swift-TLS-Client.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A71E17E92D18F01A00E1562D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71E17E82D18F01A00E1562D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A72296E92D43187200ADE386 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A72296E82D43187200ADE386 /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+		A781F14C2CFCF4C10008360C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A781F14E2CFCF4C10008360C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A781F1502CFCF4C10008360C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A781F1522CFCF4C10008360C /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		A781F1542CFCF4C10008360C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A781F1562CFCF4C10008360C /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		A781F1582CFCF4C10008360C /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		A781F15A2CFCF4C10008360C /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		A781F15C2CFCF4C10008360C /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		A781F15E2CFCF4C10008360C /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		A781F1602CFCF4C10008360C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A781F1BB2CFD2BC30008360C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F1BA2CFD2BC30008360C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		A781F1BE2CFD2BDB0008360C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F1BD2CFD2BDB0008360C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A791F6EC2DE6C07100B1AA38 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A781F14B2CFCF4C10008360C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		A7925E722D0036C800BD7A22 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7925E712D0036C800BD7A22 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A7925E742D0036C800BD7A22 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7925E712D0036C800BD7A22 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		A79FB6602D1D0CDE00BCA889 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A79FB65F2D1D0CDE00BCA889 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		A79FB6622D1D0CDE00BCA889 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A79FB65F2D1D0CDE00BCA889 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		A7C255742D18E961008F2821 /* Markdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C255732D18E961008F2821 /* XCRemoteSwiftPackageReference "swift-markdown" */;
+			productName = Markdown;
+		};
+		A7C255772D18E9A1008F2821 /* Highlighter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C255762D18E9A1008F2821 /* XCRemoteSwiftPackageReference "HighlighterSwift" */;
+			productName = Highlighter;
+		};
+		A7DC9A2D2D94CD6F00E838B8 /* swift-tls-client */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DC9A2C2D94CD6F00E838B8 /* XCRemoteSwiftPackageReference "Swift-TLS-Client" */;
+			productName = "swift-tls-client";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A781F09C2CFCE9B80008360C /* Project object */;
+}
