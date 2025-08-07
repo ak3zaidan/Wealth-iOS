@@ -1,6 +1,7 @@
 # Wealth iOS -- Download Now - Fully OS
 - https://wealth-aio.com
 - https://apps.apple.com/us/app/wealthaio/id6738942787
+- **This project took 2 months and now its OS for free**
 
 > **Features**
 - Fine Tuned (Context based) text/image -> text LLM Ai chatbot
