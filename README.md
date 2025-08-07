@@ -3,6 +3,8 @@
 - https://apps.apple.com/us/app/wealthaio/id6738942787
 
 > **Features**
+- Fine Tuned (Context based) text/image -> text LLM Ai chatbot
+- Real time push notifications and in-app notifications
 - Firebase Database and Storage
 - Real time server sync with upto 6 servers
 - Apple, Google, Email, Face ID Auth
