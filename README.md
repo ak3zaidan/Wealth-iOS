@@ -1,4 +1,12 @@
+# Wealth iOS -- Download Now - Fully OS
+- https://wealth-aio.com
+- https://apps.apple.com/us/app/wealthaio/id6738942787
 
+> **Features**
+- Firebase Database and Storage
+- Real time server sync with upto 6 servers
+- Apple, Google, Email, Face ID Auth
+- Clean UI
 
 <table>
   <tr>
